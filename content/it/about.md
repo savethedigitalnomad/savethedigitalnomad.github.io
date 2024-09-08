@@ -1,19 +1,11 @@
 ---
 author: Saverio Veltri
 title: About Me
-date: 2022-08-15
+date: 2021-07-15
 description:
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
-
-Born and raised as Italian, Citizen of the world by adoption. Globetrotter and Digital Nomad.
-
-I'm a passionate Software Engineer and software architect, lucky to work in 
-
-
-
-
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
