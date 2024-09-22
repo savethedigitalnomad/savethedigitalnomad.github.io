@@ -101,7 +101,7 @@ DefaultContentLanguageInSubdir = true
     website = "github"
     url = "https://github.com/save_veltri"
   [[params.homepage.social.icons]]
-    website = "spotify"
+    website = "Spotify"
     url = "https://open.spotify.com/show/6GTJNDGoRcWJqOaltnfRiS"
     
 
