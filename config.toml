@@ -12,8 +12,8 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Saverio"
-      introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
-      introPhoto = "/profile.jpeg"
+      #introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
+      introPhoto = "/profile.jpg"
       #logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
@@ -32,7 +32,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Top Post"
-        url = "/en/blog/emoji-support/"
+        url = "/it/blog/nds_1/"
         weight = 4
         
   [languages.it]
@@ -40,9 +40,9 @@ DefaultContentLanguageInSubdir = true
    weight = 1
    languageName = "Italiano"
    [languages.it.params]
-     introTitle = "Ciao! Sono Saverio Veltri"
-     introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
-     introPhoto = "/profile.jpeg"
+     introTitle = "Ciao! Sono Saverio"
+     #introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
+     introPhoto = "/profile.jpg"
      #logo = "/blist-logo.png"
    [[languages.it.menu.main]]
        name = "Blog"
@@ -86,7 +86,7 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "Description"
+  description = ""
 
   [[params.homepage.social.icons]]
     website = "twitter"
@@ -104,14 +104,6 @@ DefaultContentLanguageInSubdir = true
     website = "Spotify"
     url = "https://open.spotify.com/show/6GTJNDGoRcWJqOaltnfRiS"
     
-
-  twitter = "https://twitter.com/save_veltri"
-  linkedin = "https://linkedin.com/in/saveveltri"
-  github = "https://github.com/save_veltri"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
-
 [[menu.main]]
   name = "About"
   url = "/about"
