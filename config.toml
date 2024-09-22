@@ -3,7 +3,7 @@ metaDataFormat = "yaml"
 title = "Save The Digital Nomad"
 theme = "blist"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "it"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Saverio"
       introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
       introPhoto = "/profile.jpeg"
-      logo = "/blist-logo.png"
+      #logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -35,29 +35,34 @@ DefaultContentLanguageInSubdir = true
         url = "/en/blog/emoji-support/"
         weight = 4
         
-  #[languages.it]
-  # contentDir = "content/it" #Italian
-  # weight = 1
-  # languageName = "Italiano"
-  # [languages.it.params]
-  #   introTitle = "Ciao! Sono Saverio Veltri"
-  #   introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
-  #   introPhoto = "/profile.jpeg"
-  #   logo = "/blist-logo.png"
-  # [[languages.it.menu.main]]
-  #     name = "Blog"
-  #     url = "blog"
-  #     weight = 1
+  [languages.it]
+   contentDir = "content/it" #Italian
+   weight = 1
+   languageName = "Italiano"
+   [languages.it.params]
+     introTitle = "Ciao! Sono Saverio Veltri"
+     introSubtitle = "Software engineer who enjoys social card games, blogging and painting"
+     introPhoto = "/profile.jpeg"
+     #logo = "/blist-logo.png"
+   [[languages.it.menu.main]]
+       name = "Blog"
+       url = "blog"
+       weight = 1
 
-  # [[languages.it.menu.main]]
-  #     name = "A proposito"
-  #     url = "page/about/"
-  #     weight = 2
+   [[languages.it.menu.main]]
+       name = "A proposito"
+       url = "page/about/"
+       weight = 2
 
-  # [[languages.it.menu.main]]
-  #     name = "Tags"
-  #     url = "tags"
-  #     weight = 3
+   [[languages.it.menu.main]]
+       name = "Tags"
+       url = "tags"
+       weight = 3
+
+    [[languages.it.menu.main]]
+        name = "Top Post"
+        url = "/it/blog/emoji-support/"
+        weight = 4 
         
 [params]
   # Enable the darkmode toggle in header
@@ -67,8 +72,8 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2022 - Saverio Veltri · All rights reserved"
-  favicon = "/favicon.svg"
+  copyright = "Copyright © 2022 - 2024 - Saverio Veltri · All rights reserved"
+  # favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color itom TailwindCSS default colors
@@ -81,7 +86,25 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = ""
+  description = "Description"
+
+  [[params.homepage.social.icons]]
+    website = "twitter"
+    url = "https://twitter.com/save_veltri"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/saveveltri"
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://www.instagram.com/save_veltri/"
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/save_veltri"
+  [[params.homepage.social.icons]]
+    website = "spotify"
+    url = "https://open.spotify.com/show/6GTJNDGoRcWJqOaltnfRiS"
+    
+
   twitter = "https://twitter.com/save_veltri"
   linkedin = "https://linkedin.com/in/saveveltri"
   github = "https://github.com/save_veltri"
